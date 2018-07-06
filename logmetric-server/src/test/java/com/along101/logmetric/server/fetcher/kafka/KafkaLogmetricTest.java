@@ -36,7 +36,6 @@ public class KafkaLogmetricTest {
     public void init() {
         logTopic = "framework.log1";
         metricTopic = "framework.metric.dev";
-//        bootstrapServers = "172.17.2.134:9092,172.17.2.135:9092,172.17.2.136:9092";
         bootstrapServers = "localhost:9092";
         count = 100;
     }

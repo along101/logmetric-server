@@ -7,7 +7,7 @@
 			</pattern>
 
 		</encoder>
-		<settings>bootstrap.servers=172.17.2.134:9092,172.17.2.135:9092,172.17.2.136:9092
+		<settings>bootstrap.servers=localhost:9092
 		</settings>
 		<!--<settings>topic=monitor.log.dev</settings>-->
 		<settings>topic=framework.log.dev</settings>

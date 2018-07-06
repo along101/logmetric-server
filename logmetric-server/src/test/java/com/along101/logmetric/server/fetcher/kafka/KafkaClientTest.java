@@ -31,7 +31,7 @@ public class KafkaClientTest {
     @Before
     public void init() {
         topic = "framework.log";
-        bootstrapServers = "10.3.16.55:9092,10.3.16.56:9092,10.3.16.57:9092";
+        bootstrapServers = "localhost:9092";
         count = 5;
     }
 

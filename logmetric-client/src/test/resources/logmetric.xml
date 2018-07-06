@@ -3,14 +3,14 @@
 
 		<logging>
 			<!-- -->
-			<server>172.17.2.134:9092,172.17.2.135:9092,172.17.2.136:9092
+			<server>localhost:9092
 			</server>
 			<level>info</level>
 			<topic>testLog</topic>
 		</logging>
 		<!-- -->
 		<metric>
-			<server>172.17.2.134:9092,172.17.2.135:9092,172.17.2.136:9092
+			<server>localhost:9092
 			</server>
 			<!--<topic>monitor.metric.dev</topic>-->
 			<topic>testMetric</topic>
