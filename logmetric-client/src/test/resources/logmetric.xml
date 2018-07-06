@@ -1,0 +1,28 @@
+<configuration>
+	<logmetric appid="1111">
+
+		<logging>
+			<!-- -->
+			<server>172.17.2.134:9092,172.17.2.135:9092,172.17.2.136:9092
+			</server>
+			<level>info</level>
+			<topic>testLog</topic>
+		</logging>
+		<!-- -->
+		<metric>
+			<server>172.17.2.134:9092,172.17.2.135:9092,172.17.2.136:9092
+			</server>
+			<!--<topic>monitor.metric.dev</topic>-->
+			<topic>testMetric</topic>
+		</metric>
+
+		<setting>
+			<bufferSize>4096</bufferSize>
+			<workerSize>4</workerSize>
+			<workerBufferSize>10</workerBufferSize>
+			<topic>testMetric</topic>
+			<fetchSize>30</fetchSize>
+			<fetchTimeout>50</fetchTimeout>
+		</setting>
+	</logmetric>
+</configuration>
