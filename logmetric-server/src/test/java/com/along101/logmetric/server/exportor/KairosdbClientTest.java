@@ -20,7 +20,7 @@ import java.net.URISyntaxException;
  */
 public class KairosdbClientTest {
 
-    private String kairosUrl = "http://10.114.27.43:8082";
+    private String kairosUrl = "http://x.x.27.43:8082";
 
     private HttpClient getClient() throws  Exception {
         HttpClient client = new HttpClient(kairosUrl);

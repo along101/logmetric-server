@@ -36,7 +36,7 @@ public class ElasticsearchClientTest {
 
     private String indexName = "logmetric-testunit";
     private String indexType = "log.Testunit";
-    private String servers = "10.114.22.223:9300,10.114.22.147:9300,10.114.22.222:9300,10.114.22.243:9300,10.114.22.32:9300";
+    private String servers = "x.x.22.223:9300,x.x.22.147:9300,x.x.22.222:9300,x.x.22.243:9300,x.x.22.32:9300";
 
     @Before
     public void init() throws Exception {
